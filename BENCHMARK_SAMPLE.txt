@@ -1,0 +1,14 @@
+{'delta': 0.01, 'propagation_depth': 0, 'amplification': 3.6099996390000273, 'boundary_crossings': 0, 'feedback_gain': 0.9999999997229916, 'systemic_consequence': 0.2545049747300019}
+{'delta': 0.05, 'propagation_depth': 4, 'amplification': 3.6099999278, 'boundary_crossings': 2, 'feedback_gain': 0.9999999997229917, 'systemic_consequence': 0.611724994946}
+{'delta': 0.1, 'propagation_depth': 4, 'amplification': 3.6099999638999978, 'boundary_crossings': 2, 'feedback_gain': 0.9999999997229917, 'systemic_consequence': 0.6207499974729999}
+{'delta': 0.2, 'propagation_depth': 4, 'amplification': 3.728666856356669, 'boundary_crossings': 3, 'feedback_gain': 1.0328717102402023, 'systemic_consequence': 0.698293348694967}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
